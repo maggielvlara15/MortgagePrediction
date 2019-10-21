@@ -19,17 +19,19 @@ Following along the pipeline, I first ingest the dataset with a total size of 25
 
 The structure of the directory is mapped according to this tree:
 
-MortgagePrediction
-    |- requirement.txt
+    |- requirements.txt
     |- data_pipeline.png
     |- README.md
-    |- Flask
-        |- app.py
     |- db
         |- schema.sql
+    |- flask
+        |- run.py
+        |- views.py
+        |- requirements.txt
     |- src
-        |- fannie_prepare.py
-        |- fannie_prepare.py
         |- create_table.py
         |- ml_postgres.py
+        |- freddie_prepare.py
+        |- fannie_prepare.py
+
 
