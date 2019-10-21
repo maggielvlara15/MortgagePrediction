@@ -13,3 +13,4 @@ This project aims at creating a data pipeline for integrating the multiple datas
 
 Raw data are released by Freddie Mac and Fannie Mae, which are the top two goverment-sponsored enterprises in US.
 
+![pipeline](pipeline.png "Data Pipeline")
