@@ -19,7 +19,6 @@ Following along the pipeline, I first ingest the dataset with a total size of 25
 
 The structure of the directory is mapped according to this tree:
 
-    |- requirements.txt
     |- data_pipeline.png
     |- README.md
     |- db
