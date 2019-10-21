@@ -39,10 +39,6 @@ The structure of the directory is mapped according to this tree:
 instruction to start a spark cluster on EC2 instances. In this case, there are 3 workers and 1 master all on m4.large 
 2. Install all the necessary packages according to requirements.txt.
 3. Configure for Spark History Server. 
-    - Useful [link](https://www.ibm.com/support/knowledgecenter/en/SS3MQL_1.1.1/management_sym/spark_configuring_history_service.html)
-     on how to configure spark history server.
-        
-        ```
     - Start the spark service
         ```
         $cd /usr/local/spark/sbin/ && sudo ./start-history-server.sh
